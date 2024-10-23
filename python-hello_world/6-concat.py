@@ -2,4 +2,4 @@
 import sys
 str1 = "Welcome to"
 str2 = "Holberton School!"
-print(str1 + " " + str2, file=sys.stderr)
+print(f"{str1} {str2}", file=sys.stderr)
