@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-import sys; str1 = "Welcome to"; str2 = "Holberton School!"
-print(str1 + " " + str2)
-sys.stderr.write("This is an error message\n")
+str1 = "Holberton"
+str2 = "School"
+str3 = str1+" "+str2
+print(f"Welcome to {str3}!")
