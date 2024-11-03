@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-Module for defining the Square class with size validation, area calculation, and printing methods.
+Module for defining the Square class with size, area, and printing methods.
 """
 
 
 class Square:
-    """Represents a square with private size attribute, area calculation, and print capability."""
+    """Represents a square with private size, area, and print capability."""
 
     def __init__(self, size=0):
         """
@@ -41,7 +41,7 @@ class Square:
             raise TypeError("size must be an integer")
         if value < 0:
             raise ValueError("size must be >= 0")
-        
+
         self.__size = value
 
     def area(self):
@@ -56,7 +56,7 @@ class Square:
     def my_print(self):
         """
         Prints the square with the character '#'.
-        
+
         If size is 0, prints an empty line.
         """
         if self.__size == 0:
@@ -64,4 +64,3 @@ class Square:
         else:
             for _ in range(self.__size):
                 print("#" * self.__size)
-
