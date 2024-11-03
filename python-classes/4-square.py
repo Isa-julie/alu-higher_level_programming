@@ -5,7 +5,7 @@ Module for defining the Square class with size validation, area and methods.
 
 
 class Square:
-    """ a square with a private size attribute, area, and access to size."""
+    """represents a squareare with a private size, area, and access to size."""
    def __init__(self, size=0):
         """
         Initializes the square with an optional size.
