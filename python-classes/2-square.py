@@ -2,6 +2,8 @@
 """
 Module for defining the Square class with size validation.
 """
+
+
 class Square:
     """Represents a square with a private size attribute."""
     def __init__(self, size=0):
