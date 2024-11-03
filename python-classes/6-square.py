@@ -3,7 +3,6 @@
 Defines a Square class with size and position attributes.
 """
 
-
 class Square:
     """Represents a square with size, position, and print ability."""
 
@@ -64,7 +63,7 @@ class Square:
         """
         if (not isinstance(value, tuple) or len(value) != 2 or
             not all(isinstance(num, int) and num >= 0 for num in value)):
-              raise TypeError("position must be a tuple of 2 positive integers")
+            raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
     def area(self):
@@ -86,8 +85,10 @@ class Square:
             print()
             return
 
+        # Print the vertical offset (new lines for `position[1]`)
         for _ in range(self.__position[1]):
             print()
 
+        # Print each row with spaces for horizontal offset and '#' for size
         for _ in range(self.__size):
             print(" " * self.__position[0] + "#" * self.__size)
