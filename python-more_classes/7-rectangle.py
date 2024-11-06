@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""This module defines a Rectangle class with width, height, methods 
-for area, perimeter, and string representations, along with tracking 
+"""This module defines a Rectangle class with width, height, methods
+for area, perimeter, and string representations, along with tracking
 instances and customizing the print symbol.
 """
 
@@ -9,9 +9,9 @@ class Rectangle:
     """Defines a rectangle with width, height, and methods for area,
     perimeter, and string representations.
     """
-    
+
     number_of_instances = 0  # Class attribute to track the number of instances
-    print_symbol = "#"       # Class attribute to store the symbol for string representation
+    print_symbol = "#"       # Class attribute to store the symbol for string
 
     def __init__(self, width=0, height=0):
         """Initialize the rectangle with optional width and height."""
@@ -58,9 +58,9 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """Return a string representation of the rectangle using print_symbol."""
+        """Return a string representation of rectangle using print_symbol."""
         if self.__width == 0 or self.__height == 0:
-            return ""
+            return 
         return "\n".join([str(self.print_symbol) * self.__width] * self.__height)
 
     def __repr__(self):
