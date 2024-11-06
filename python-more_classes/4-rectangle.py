@@ -5,7 +5,9 @@ for calculating area, perimeter, and string representations of the rectangle.
 
 
 class Rectangle:
-    """Defines a rectangle with width, height, and methods for A and P."""
+    """Defines a rectangle with width, height, and methods for area and 
+    perimeter.
+    """
 
     def __init__(self, width=0, height=0):
         """Initialize the rectangle with optional width and height."""
@@ -58,4 +60,4 @@ class Rectangle:
 
     def __repr__(self):
         """Return a string representation of the rectangle to recreate it."""
-        return f"Rectangle({self.__
+        return f"Rectangle({self.__width}, {self.__height})"
