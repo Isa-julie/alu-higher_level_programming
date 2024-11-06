@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module defines a Rectangle class with width, height, and methods 
+"""This module defines a Rectangle class with width, height, and methods
 for area, perimeter, string representations, and tracking instances.
 """
 
@@ -9,8 +9,8 @@ class Rectangle:
     perimeter, and string representations.
     """
 
-    number_of_instances = 0  # Class attribute to track the number of instances
-    
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """Initialize the rectangle with optional width and height."""
         self.width = width
