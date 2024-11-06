@@ -60,7 +60,7 @@ class Rectangle:
         """Return string representation using print_symbol."""
         if self.__width == 0 or self.__height == 0:
             return
-         return .join([str(self.print_symbol) * self.__width] * self.__height)
+         return "\n".join([str(self.print_symbol) * self.__width] * self.__height)
 
     def __repr__(self):
         """Return a string representation to recreate the rectangle."""
