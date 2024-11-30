@@ -1,11 +1,7 @@
 #!/usr/bin/python3
 """I documented you"""
 
-<<<<<<< HEAD
 import urllib.request
-=======
-mport urllib.request
->>>>>>> 1dec73146b60274cd3d86ed2d8ae604b758150bc
 import urllib.parse
 import sys
 
