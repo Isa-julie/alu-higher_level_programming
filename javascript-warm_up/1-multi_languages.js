@@ -1,9 +1,5 @@
 #!/usr/bin/node
 
-let sentence = {
-	one 'C is fun',
-	two 'Python is cool',
-	three 'Javascript is amazing'
-};
-console.log('sentence');
+let messages = ["C is fun", "Python is cool", "JavaScript is amazing"];
+console.log(messages.join("\n"));
 
