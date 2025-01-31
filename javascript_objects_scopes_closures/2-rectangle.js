@@ -6,7 +6,7 @@ class Rectangle {
       this.width = w;
       this.height = h;
     } else {
-
+      // If invalid, do not define any properties (effectively making an empty object)
     }
   }
 }
